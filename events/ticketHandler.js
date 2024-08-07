@@ -57,15 +57,15 @@ async function monitorConfigChanges(client) {
           
                     const embed = new EmbedBuilder()
                         .setAuthor({
-                            name: "Welcome to Ticket Support",
+                            name: "Welcome to Ticket System",
                             iconURL: ticketIcons.mainIcon,
-                            url: "https://discord.gg/xQF9f9yUEM"
+                            url: "https://discord.gg/tAD4TFuxZN"
                         })
                         .setDescription('- Please click below menu to create a new ticket.\n\n' +
-                            '**Ticket Guidelines:**\n' +
-                            '- Empty tickets are not permitted.\n' +
-                            '- Please be patient while waiting for a response from our support team.')
-                        .setFooter({ text: 'We are here to Help!', iconURL: ticketIcons.modIcon })
+                            '**Ticket System:**\n' +
+                            '- Tạo Ticket Không Nói Không Rằng Gì Thì Ăn Mute Nhé.\n' +
+                            '- Vui Lòng Chờ Các <@&1230864469580714095 Rep Ticket Của Bạn Nhé.')
+                        .setFooter({ text: 'Made by Jfunk_', iconURL: 'https://cdn.discordapp.com/avatars/779507251282968587/8fc9bf366dde18bfe30e5d21127ba6ac.png?size=1024' })
                         .setColor('#00FF00')
                         .setTimestamp();
 
@@ -73,7 +73,7 @@ async function monitorConfigChanges(client) {
                         .setCustomId('select_ticket_type')
                         .setPlaceholder('Choose ticket type')
                         .addOptions([
-                            { label: '🆘 Support', value: 'support' },
+                            { label: '🛒 Buy & Cày Thuê', value: 'support' },
                             { label: '📂 Suggestion', value: 'suggestion' },
                             { label: '💜 Feedback', value: 'feedback' },
                             { label: '⚠️ Report', value: 'report' }
@@ -136,10 +136,10 @@ async function handleSelectMenu(interaction, client) {
         .setAuthor({
             name: "Support Ticket",
             iconURL: ticketIcons.modIcon,
-            url: "https://discord.gg/xQF9f9yUEM"
+            url: "https://discord.gg/tAD4TFuxZN"
         })
-        .setDescription(`Hello ${user}, welcome to our support!\n- Please provide a detailed description of your issue\n- Our support team will assist you as soon as possible.\n- Feel free to open another ticket if this was closed.`)
-        .setFooter({ text: 'Your satisfaction is our priority', iconURL: ticketIcons.heartIcon })
+        .setDescription(`Hello ${user}, welcome to our ticket\n- Hãy Nói Ra Yêu Cầu Của Bạn Vào Đây \n- Và Hãy Chờ Các <@&1230864469580714095> Rep Ticket Của Bạn Nhé.\n- Nếu ${user} Tạo Ticket Với Mục Đích Cho Vui Thì Xin Phép Mute 3 ngày.`)
+        .setFooter({ text: 'Made By Jfunk_', iconURL: 'https://cdn.discordapp.com/avatars/779507251282968587/8fc9bf366dde18bfe30e5d21127ba6ac.png?size=1024' })
         .setColor('#00FF00')
         .setTimestamp();
 
@@ -157,12 +157,11 @@ async function handleSelectMenu(interaction, client) {
         .setAuthor({ 
             name: "Ticket Created!", 
             iconURL: ticketIcons.correctIcon,
-            url: "https://discord.gg/xQF9f9yUEM"
+            url: "https://discord.gg/tAD4TFuxZN"
         })
         .setDescription(`- Your ${ticketType} ticket has been created.`)
         .addFields(
             { name: 'Ticket Channel', value: `${ticketChannel.url}` },
-            { name: 'Instructions', value: 'Please describe your issue in detail.' }
         )
         .setTimestamp()
         .setFooter({ text: 'Thank you for reaching out!', iconURL: ticketIcons.modIcon });
@@ -200,7 +199,7 @@ async function handleCloseButton(interaction, client) {
             .setAuthor({ 
                 name: "Ticket closed!", 
                 iconURL: ticketIcons.correctrIcon,
-                url: "https://discord.gg/xQF9f9yUEM"
+                url: "https://discord.gg/tAD4TFuxZN"
             })
             .setDescription(`- Your ticket has been closed.`)
             .setTimestamp()
