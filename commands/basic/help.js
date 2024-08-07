@@ -82,10 +82,9 @@ module.exports = {
 
                 pages.push({
                     title: 'Bot Information',
-                    description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
+                    description: `Welcome to the help command!`,
                     commands: [
-                        `**💜 Bot Developer:** GlaceYT\n`,
-                        `**Bot Version:** 1.0.0\n`,
+                        `**💜 Bot Developer:** Jfunk_ (@vha_kaioshin)\n`,
                         `**Total Servers:** ${totalServers}\n`,
                         `**Total Members:** ${totalMembers}\n`,
                         `**Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n`,
@@ -93,13 +92,13 @@ module.exports = {
                         `**Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`,
                         `**Disabled Categories:** ${disabledCategoriesList.join(', ')}\n`
                     ],
-                    image: "https://cdn.discordapp.com/attachments/1264134884432285766/1270352605154902151/GlaceYT.gif?ex=66b3638f&is=66b2120f&hm=23878b54affd61573b105db7c1c016eb730911dc762b3fbabac5a32cbc884119&",
+                    image: "https://cdn.discordapp.com/attachments/1090895809098289185/1265679760105934909/452918845_850377030365873_7752585649364363624_n.png?ex=66b4d8a2&is=66b38722&hm=3d30a38a948e4e0c76179318ecf24c00a9525cc7709ea79150038a5dc181b8d5&",
                     color: "#3498db",
-                    thumbnail: "https://cdn.discordapp.com/attachments/1264134884432285766/1270353776489922651/s_removed.png?ex=66b364a6&is=66b21326&hm=2d4ded259b57f476c901c58401e1d6faba2653c0a964ee1c4f371ecf3da52100&",
+                    thumbnail: "https://cdn.discordapp.com/attachments/1090895809098289185/1260978378958438592/arona_blue_archive_Blue_Archive_Plana_Blue_Archive_night_dark_background_portrait_display_fan_art-2295722.jpgd.png?ex=66b4e1a1&is=66b39021&hm=400f565b59ff86c83aeb5fdacbbcfff6fa402d3f6161ff7a1586d374a5357960&",
                     author: {
-                        name: 'All In One',
-                        iconURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1255167194036437093/1558-zerotwo-exciteddance.gif?ex=667c250a&is=667ad38a&hm=09e6db36fd79436eb57de466589f21ca947329edd69b8e591d0f6586b89df296&",
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        name: 'Made by Jfunk_',
+                        iconURL: "https://cdn.discordapp.com/avatars/779507251282968587/8fc9bf366dde18bfe30e5d21127ba6ac.png?size=1024",
+                        url: "https://discord.gg/tAD4TFuxZN"
                     }
                 });
 
@@ -240,10 +239,9 @@ module.exports = {
                 const totalCommands = totalCommandFiles + totalExcessCommandFiles;
                 pages.push({
                     title: 'Bot Information',
-                    description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
+                    description: `Welcome to the help command!`,
                     commands: [
-                        `**💜 Bot Developer:** GlaceYT\n`,
-                        `**Bot Version:** 1.0.0\n`,
+                        `**💜 Bot Developer:** Jfunk_ (@vha_kaioshin)\n`,
                         `**Total Servers:** ${totalServers}\n`,
                         `**Total Members:** ${totalMembers}\n`,
                         `**Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n`,
@@ -251,13 +249,13 @@ module.exports = {
                         `**Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`,
                         `**Disabled Categories:** ${disabledCategoriesList.join(', ')}\n`
                     ],
-                    image: "https://cdn.discordapp.com/attachments/1264134884432285766/1270352605154902151/GlaceYT.gif?ex=66b3638f&is=66b2120f&hm=23878b54affd61573b105db7c1c016eb730911dc762b3fbabac5a32cbc884119&",
+                    image: "https://cdn.discordapp.com/attachments/1090895809098289185/1265679760105934909/452918845_850377030365873_7752585649364363624_n.png?ex=66b4d8a2&is=66b38722&hm=3d30a38a948e4e0c76179318ecf24c00a9525cc7709ea79150038a5dc181b8d5&",
                     color: "#3498db",
-                    thumbnail: "https://cdn.discordapp.com/attachments/1264134884432285766/1270353776489922651/s_removed.png?ex=66b364a6&is=66b21326&hm=2d4ded259b57f476c901c58401e1d6faba2653c0a964ee1c4f371ecf3da52100&",
+                    thumbnail: "https://cdn.discordapp.com/attachments/1090895809098289185/1260978378958438592/arona_blue_archive_Blue_Archive_Plana_Blue_Archive_night_dark_background_portrait_display_fan_art-2295722.jpgd.png?ex=66b4e1a1&is=66b39021&hm=400f565b59ff86c83aeb5fdacbbcfff6fa402d3f6161ff7a1586d374a5357960&",
                     author: {
-                        name: 'All In One',
-                        iconURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1255167194036437093/1558-zerotwo-exciteddance.gif?ex=667c250a&is=667ad38a&hm=09e6db36fd79436eb57de466589f21ca947329edd69b8e591d0f6586b89df296&",
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        name: 'Made by Jfunk_',
+                        iconURL: "https://cdn.discordapp.com/avatars/779507251282968587/8fc9bf366dde18bfe30e5d21127ba6ac.png?size=1024",
+                        url: "https://discord.gg/tAD4TFuxZN"
                     }
                 });
 
@@ -439,7 +437,7 @@ module.exports = {
                 .setAuthor({ 
                     name: "Alert!", 
                     iconURL: cmdIcons.dotIcon ,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/tAD4TFuxZN"
                 })
                 .setDescription('- This command can only be used through slash command!\n- Please use `/help`')
                 .setTimestamp();
