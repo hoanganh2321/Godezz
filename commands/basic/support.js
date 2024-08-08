@@ -23,7 +23,7 @@ module.exports = {
                 - ${lang.discord} - ${supportServerLink}
                 
             `)
-            .setImage(lang.supportImageURL)
+            .setImage: 'https://cdn.discordapp.com/attachments/1090895809098289185/1270760246964654162/116593332-large.gif?ex=66b587f4&is=66b43674&hm=95ee7e17b153b979da751b50fd5b5ccb44f61ea8b52d57fbdcdd27243e7b75b6&',
             .setTimestamp();
 
         await interaction.reply({ embeds: [embed] });
