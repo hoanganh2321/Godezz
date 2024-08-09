@@ -134,11 +134,11 @@ async function handleSelectMenu(interaction, client) {
 
     const ticketEmbed = new EmbedBuilder()
         .setAuthor({
-            name: "Support Ticket",
+            name: "Ticket System",
             iconURL: ticketIcons.modIcon,
             url: "https://discord.gg/tAD4TFuxZN"
         })
-        .setDescription(`Hello ${user}, welcome to our ticket\n- Hãy Nói Ra Yêu Cầu Của Bạn Vào Đây \n- Và Hãy Chờ Các Owner Rep Ticket Của Bạn Nhé.\n- Nếu ${user} Tạo Ticket Với Mục Đích Cho Vui Thì Xin Phép Mute 3 ngày.`)
+        .setDescription(`Hello ${user}, welcome to our ticket\n- Hãy Nói Ra Yêu Cầu Của Bạn Vào Đây \n- Và Hãy Chờ Các <@&1230864469580714095> Rep Ticket Của Bạn Nhé.\n- Nếu ${user} Tạo Ticket Với Mục Đích Cho Vui Thì Xin Phép Mute 3 ngày.`)
         .setFooter({ text: 'Made By Jfunk_', iconURL: 'https://cdn.discordapp.com/avatars/779507251282968587/8fc9bf366dde18bfe30e5d21127ba6ac.png?size=1024' })
         .setColor('#00FF00')
         .setTimestamp();
